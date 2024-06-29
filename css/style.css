@@ -1,0 +1,49 @@
+body{
+    background-color: #F7ECDE;
+}
+
+h1{
+font-family: main font;
+position: relative;
+}
+@font-face{
+    src: url(../webfonts/Pacifico/Pacifico-Regular.ttf);
+    font-family: main font;
+}
+h1::after{
+    content: "";
+     position: absolute;
+    width:50%;
+    height:25%;
+    bottom: 5px;
+  
+   transform: translate(-50% );
+    background-color: orange;
+   
+}
+hr{
+    border-top: 3px dashed black;
+}
+h2{
+    color: #B2AB49;
+
+}
+
+h2 i{
+    color: #3FA55C;
+}
+.button1{
+    width: 15%;
+    height: 40px;
+    border: none;
+    border-radius: 10px;
+    background-color: #d1512d;
+
+}
+.button1:hover{
+    background-color: #bb4120;
+
+}
+.td_btn{
+    width: 30%;
+}
